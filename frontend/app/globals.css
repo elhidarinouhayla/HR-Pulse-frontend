@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Outfit:wght@300;400;500;600&family=Syne+Mono&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Outfit', sans-serif;
+  background: #EEF0F7;
+  color: #2D3142;
+}
+
+:root {
+  --bg: #EEF0F7;
+  --white: #FFFFFF;
+  --blue: #5B8DEF;
+  --purple: #A78BFA;
+  --coral: #F06E6E;
+  --cyan: #67C6E3;
+  --text: #2D3142;
+  --muted: #8F93A8;
+  --border: #E8EAF2;
+  --green: #4CAF88;
+  --shadow-soft: -6px -6px 12px #FFFFFF, 6px 6px 16px rgba(180,190,210,0.45);
+  --shadow-card: 0 8px 32px rgba(91,141,239,0.12);
+  --sidebar-w: 260px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
