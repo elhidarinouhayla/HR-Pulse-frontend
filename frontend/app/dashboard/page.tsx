@@ -198,7 +198,7 @@ export default function DashboardPage() {
   return (
     <div className={styles.page}>
 
-      {/* ── SIDEBAR ── */}
+      
       <aside className={styles.sidebar}>
         <div className={styles.sideTop}>
 
@@ -250,10 +250,10 @@ export default function DashboardPage() {
         </div>
       </aside>
 
-      {/* ── MAIN ── */}
+     
       <main className={styles.main}>
 
-        {/* Header */}
+        
         <header className={styles.header}>
           <div>
             <h1 className={styles.headerTitle}>
@@ -275,13 +275,11 @@ export default function DashboardPage() {
           </div>
         </header>
 
-        {/* ════════════════════════════════
-            DASHBOARD
-        ════════════════════════════════ */}
+     
         {activeNav === "dashboard" && (
           <div className={styles.content}>
 
-            {/* KPI Cards */}
+
             <div className={styles.kpiGrid}>
               {[
                 { icon: "🎯", label: "Total Skills",  value: loadingSkills ? "..." : skills.length,                   color: "#5B8DEF", delay: "0s"   },
@@ -308,10 +306,10 @@ export default function DashboardPage() {
               ))}
             </div>
 
-            {/* Two columns */}
+            
             <div className={styles.twoCol}>
 
-              {/* Jobs table */}
+           
               <div className={styles.card}>
                 <h2 className={styles.cardTitle}>Offres récentes</h2>
                 <div className={styles.tableWrap}>
@@ -344,7 +342,7 @@ export default function DashboardPage() {
                 </div>
               </div>
 
-              {/* Skills list */}
+
               <div className={styles.card}>
                 <h2 className={styles.cardTitle}>Top Skills</h2>
                 <div className={styles.skillsList}>
@@ -371,9 +369,7 @@ export default function DashboardPage() {
           </div>
         )}
 
-        {/* ════════════════════════════════
-            JOBS
-        ════════════════════════════════ */}
+
         {activeNav === "jobs" && (
           <div className={styles.content}>
             <div className={styles.card}>
@@ -393,7 +389,7 @@ export default function DashboardPage() {
                 )}
               </div>
 
-              {/* Skill filter chips */}
+
               <div className={styles.filterRow}>
                 {skills.slice(0, 10).map((s, i) => (
                   <button
@@ -435,9 +431,7 @@ export default function DashboardPage() {
           </div>
         )}
 
-        {/* ════════════════════════════════
-            SKILLS
-        ════════════════════════════════ */}
+
         {activeNav === "skills" && (
           <div className={styles.content}>
             <div className={styles.card}>
@@ -477,14 +471,12 @@ export default function DashboardPage() {
           </div>
         )}
 
-        {/* ════════════════════════════════
-            PREDICTOR
-        ════════════════════════════════ */}
+
         {activeNav === "predictor" && (
           <div className={styles.content}>
             <div className={styles.predictorGrid}>
 
-              {/* Form */}
+
               <div className={styles.card}>
                 <h2 className={styles.cardTitle}>⭐⭐⭐ Prédicteur Salarial</h2>
                 <p className={styles.cardSubtitle}>
@@ -521,7 +513,7 @@ export default function DashboardPage() {
                 </button>
               </div>
 
-              {/* Result */}
+
               <div className={styles.card}>
                 <h2 className={styles.cardTitle}>Résultat</h2>
 
@@ -578,7 +570,7 @@ export default function DashboardPage() {
           </div>
         )}
 
-        {/* ── Bottom Nav mobile ── */}
+
         <div className={styles.bottomNav}>
           {navItems.map((item) => (
             <button
