@@ -11,7 +11,7 @@ export default function HomePage() {
       <div className={styles.blob2} />
       <div className={styles.blob3} />
 
-      {/* Navbar */}
+     
       <nav className={styles.navbar}>
         <div className={styles.logo}>
           <span className={styles.logoDot} />
@@ -32,7 +32,7 @@ export default function HomePage() {
         </div>
       </nav>
 
-      {/* Hero */}
+     
       <section className={styles.hero}>
         <div className={styles.heroLeft}>
           <div className={styles.badge}>✦ Powered by Azure AI</div>
@@ -98,7 +98,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Features */}
+     
       <section className={styles.features} id="features">
         <h2 className={styles.sectionTitle}>Tout ce dont vous avez besoin</h2>
         <div className={styles.featureGrid}>
