@@ -1,4 +1,4 @@
-# HR-Pulse Frontend 🚀
+# HR-Pulse Frontend 
 
 > **Interface web moderne pour la plateforme d'analyse RH intelligente** — powered by **Next.js 15**, **TypeScript**, et **Azure AI**.
 
@@ -88,4 +88,3 @@ Le projet utilise un **Dockerfile multi-stage** qui :
 3. Génère une image de production ultra-légère (`runner`) utilisant le mode `standalone` de Next.js.
 
 ---
-Built with ❤️ by the HR-Pulse Team.
