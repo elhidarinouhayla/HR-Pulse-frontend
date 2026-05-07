@@ -21,7 +21,7 @@
 
 | Technologie | Rôle |
 |---|---|
-| **Next.js 15** | Framework React (App Router) |
+| **Next.js 15** | Framework React |
 | **TypeScript** | Typage statique pour une robustesse accrue |
 | **Tailwind CSS 4** | Styling moderne et utilitaire |
 | **Azure AI** | Services cognitifs pour le traitement du langage |
